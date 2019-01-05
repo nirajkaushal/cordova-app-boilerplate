@@ -1,0 +1,4 @@
+#Sun Jan 06 00:01:00 IST 2019
+base.0=/home/nirajkaushal/github-projects/cordova-app-boilerplate/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

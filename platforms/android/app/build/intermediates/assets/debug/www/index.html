@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <!-- Required meta tags-->
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="theme-color" content="#2196f3">
+        <title>Demo App</title>
+        <link rel="stylesheet" href="css/framework7.md.min.css">
+        <link rel="stylesheet" href="css/font.css">
+        <link rel="stylesheet" href="css/app.css">
+    </head>
+    <body>
+    <div id="app">
+        <div class="statusbar"></div>
+
+        <div class="view view-main">
+          <div data-name="home" class="page">
+            <div class="page-content">
+                <div class="app-status">
+                    <h1>C😍😍l!!</h1>
+                    <p>Now you are ready to go...🚴</p>
+                </div>
+                <p class="credit">Designed By Framework7 and powered by Cordova</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript" src="js/framework7.min.js"></script>
+      <script type="text/javascript" src="cordova.js"></script>
+      <script type="text/javascript" src="js/app.js"></script>
+    </body>
+</html>
