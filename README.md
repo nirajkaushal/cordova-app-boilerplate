@@ -4,7 +4,7 @@ A Cordova app boilerplate with Framework 7 to create hybrid mobile app.
 To get started, clone this repo as whatever you want to name your app:
 
 ```
-git clone https://github.com/nirajkaushal/cordova-app-boilerplate/ my-app
+git clone https://github.com/nirajkaushal/cordova-app-boilerplate my-app
 ```
 
 Running the app:
